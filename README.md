@@ -18,3 +18,11 @@ echo sprintf("x1 = %f<br>x2 = %f", pq(5, 5)[0], pq(5, 5)[1]);
 ```cs
 Console.WriteLine(string.Format("x1 = {0}\nx2 = {1}", pq(5, 5)[0], pq(5, 5)[1]));
 ```
+
+**F#:**
+```fs
+//...
+for i in pq(5.0, 5.0) do 
+  printfn "%f\n" i
+0
+```
